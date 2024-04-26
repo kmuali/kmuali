@@ -9,31 +9,23 @@ from font_8x8 import bitmap
 
 ## Edit This Constants #################################################
 
-TEXT = "Karim M. Ali"
-CHARS_PER_ROW_N = 8
+TEXT = "Hello"
+CHARS_PER_ROW_N = 1
 
-FRAMES_PER_SECOND = 24
+FRAMES_PER_SECOND = 6
 
 FILENAME = "banner.gif"
 
 DO_OPTIMIZE_GIF = True
 
-_BLUE_ON = (0, 192, 255)
-_BLUE_OFF = (0, 48, 64)
-_BLUE_BG = (0, 0, 0)
-
-_RED_ON = (255, 0, 0)
-_RED_OFF = (64, 0, 0)
-_RED_BG = (32, 0, 0)
-
-LED_ON_RGB = _BLUE_ON
-LED_OFF_RGB = _BLUE_OFF
-BG_RGB = _BLUE_BG
+LED_ON_RGB = (255, 0, 0)
+LED_OFF_RGB = (64, 0, 0)
+BG_RGB = (32, 0, 0)
 
 ########################################################################
 
-DIAMETER_PX = 10
-MARGIN_PX = DIAMETER_PX // 5
+DIAMETER_PX = 8
+MARGIN_PX = 2
 DOT_PX = (MARGIN_PX * 2 + DIAMETER_PX)
 CHAR_PX = 8 * DOT_PX
 FRAME_WIDTH_PX = CHAR_PX * CHARS_PER_ROW_N
