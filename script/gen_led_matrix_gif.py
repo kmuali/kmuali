@@ -9,10 +9,10 @@ from font_8x8 import bitmap
 
 ## Edit This Constants #################################################
 
-TEXT = "Hello"
-CHARS_PER_ROW_N = 1
+TEXT = "It's Karim!"
+CHARS_PER_ROW_N = 4
 
-FRAMES_PER_SECOND = 6
+FRAMES_PER_SECOND = 12
 
 FILENAME = "banner.gif"
 
